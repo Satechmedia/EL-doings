@@ -131,7 +131,7 @@ const HomePage: FC<any> = ({ connectButtonRef }) => {
                     </Col>
 
                     <Col xs={24} sm={12}>
-                      <p>BF Network. All right reserved.</p>
+                      <p>CAKE TOOLS. All right reserved.</p>
                     </Col>
                   </Row>
                 </div>

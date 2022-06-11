@@ -117,11 +117,11 @@
       font-weight: 500;
       font-size: 24px;
       line-height: 27px;
-      color: $color_white;
+      color: #FFD700;
       margin-bottom: 14px;
   
       span {
-        color: $color_blue_1;
+        color: #FFD700;
       }
     }
   
@@ -148,7 +148,7 @@
     }
   
     .ant-modal-content {
-      background: linear-gradient(45.02deg, #0046ee 14.62%, #00dbff 85.35%);
+      background: linear-gradient(45.02deg, #FFD700 14.62%, #ffff00 85.35%);
       border-radius: 16px;
       padding: 1px;
     }
@@ -192,7 +192,7 @@
         font-weight: 500;
         text-align: left;
         background: #282828;
-        border: 1px solid #0093e6;
+        border: 1px solid #FFD700;
         box-sizing: border-box;
         box-shadow: inset 2px 4px 4px rgba(73, 73, 73, 0.4);
         border-radius: 5px;
@@ -232,7 +232,7 @@
       color: $color_white;
   
       span {
-        background: linear-gradient(45.02deg, #0046ee 14.62%, #00dbff 85.35%);
+        background: linear-gradient(45.02deg, #FFD700 14.62%, #ffff00 85.35%);
         background-clip: text;
         -webkit-text-fill-color: transparent;
       }

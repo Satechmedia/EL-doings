@@ -267,7 +267,7 @@ import React, {
                 </li>
               ))}
             </ul>
-            <p>BF Network. All right reserved.</p>
+            <p>CAKE TOOLS. All right reserved.</p>
           </div>
         </Drawer>
         <Modal

@@ -81,7 +81,7 @@
         }
   
         .highlight {
-          color: $color_blue_1 !important;
+          color: #FFD700;
           font-weight: 500;
           font-size: 20px;
           line-height: 30px;
@@ -104,7 +104,7 @@
         font-size: 64px;
         line-height: 96px;
         letter-spacing: 0.04em;
-        background: linear-gradient(45.02deg, #0046ee 14.62%, #00dbff 85.35%);
+        background: linear-gradient(45.02deg, #FFD700 14.62%, #fffb00 85.35%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -153,7 +153,7 @@
         line-height: 126px;
         margin-top: 3px;
         letter-spacing: 0.04em;
-        background: linear-gradient(45.02deg, #0046ee 14.62%, #00dbff 85.35%);
+        background: linear-gradient(45.02deg, #FFD700 14.62%, #fff200 85.35%);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -254,7 +254,7 @@
           line-height: 96px;
           letter-spacing: 0.04em;
           text-transform: uppercase;
-          color: $color_white;
+          color: #ffd900fa;
           margin-bottom: 24px;
           display: inline;
           position: relative;
@@ -264,7 +264,7 @@
             position: absolute;
             width: 100%;
             height: 5px;
-            background-color: $color_blue_1;
+            background-color: #7c6b0a;
             left: 0;
             height: 9px;
             bottom: 7px;
@@ -345,7 +345,7 @@
             font-size: 20px;
             line-height: 30px;
             letter-spacing: 0.04em;
-            background: linear-gradient(45.02deg, #0046ee 14.62%, #00dbff 85.35%);
+            background: linear-gradient(45.02deg, #FFD700 14.62%, #fbff00 85.35%);
             -webkit-background-clip: text;
             background-clip: text;
             -webkit-text-fill-color: transparent;
