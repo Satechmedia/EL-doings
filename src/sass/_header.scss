@@ -1,0 +1,136 @@
+.header {
+    background-color: $background_primary;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+  
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .logo-text {
+      margin-left: 8px;
+    }
+  
+    .button-menu {
+      background-color: transparent;
+      border: none;
+  
+      &::after {
+        display: none;
+      }
+    }
+  
+    &__right {
+      .nav-item {
+        color: $color_white;
+        font-weight: 800;
+        margin-right: 32px;
+      }
+    }
+  }
+  
+  @media (max-width: $breakpoint_mobile_max) {
+    .header {
+      &__right {
+        display: flex;
+        align-items: center;
+      }
+    }
+  
+    .drawer {
+      .header {
+        padding-left: 20px;
+        padding-right: 20px;
+        background: $background_primary;
+      }
+  
+      .ant-drawer-content {
+        background: $background_primary;
+        background-image: url(../resources/images/background-mobile.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+      }
+  
+      .ant-drawer-body {
+        padding: 0;
+        display: flex;
+        flex-flow: wrap column;
+        justify-content: space-between;
+  
+        &::after {
+          content: '';
+          background: linear-gradient(
+            to top,
+            #282828 2.93%,
+            rgba(40, 40, 40, 0.927083) 51.46%,
+            rgba(40, 40, 40, 0) 89.6%
+          );
+          width: 100%;
+          height: 100%;
+          position: absolute;
+        }
+  
+        > * {
+          z-index: 1;
+        }
+      }
+  
+      .header {
+        position: static;
+        justify-content: space-between;
+      }
+  
+      .body {
+        text-align: center;
+  
+        .ant-btn,
+        .nav-item {
+          width: calc(100% - 40px);
+          margin-top: 1em;
+        }
+  
+        .nav-item {
+          display: block;
+          margin: auto;
+          color: $color_white;
+          font-weight: 800;
+  
+          &:not(:first-child) {
+            margin-top: 1em;
+          }
+        }
+      }
+  
+      &__footer {
+        margin-bottom: 1em;
+  
+        p {
+          font-weight: 500;
+          font-size: 10px;
+          line-height: 15px;
+          text-align: center;
+          color: #99a9b5;
+        }
+  
+        .social {
+          padding-left: 0;
+          display: flex;
+          justify-content: center;
+          list-style: none;
+          margin-bottom: 20px;
+  
+          &__icon:not(:last-child) {
+            margin-right: 25px;
+          }
+        }
+      }
+    }
+  }

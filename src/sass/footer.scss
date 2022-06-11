@@ -1,0 +1,23 @@
+footer {
+    position: fixed;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #99a9b5;
+    transform: rotate(-90deg);
+    transform-origin: left;
+    bottom: 24px;
+    right: -224px;
+  }
+  
+  @media (max-width: $breakpoint_mobile_max) {
+    footer {
+      transform: none;
+      right: 0;
+      left: 0;
+      text-align: center;
+      font-size: 10px;
+      line-height: 15px;
+    }
+  }
+  

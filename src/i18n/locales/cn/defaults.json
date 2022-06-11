@@ -1,0 +1,19 @@
+{
+    "connect-wallet": "Connect wallet",
+    "hydra-vesting-title": "Hydra vesting portal",
+    "connect-wallet-continue-message": "Please connect your wallet to continue",
+    "vesting-schedule": {
+      "claimable-tokens": "Claimable tokens",
+      "claimed-tokens": "Claimed tokens",
+      "claim": "Claim",
+      "vesting-start": "Vesting start",
+      "vesting-end": "Vesting end",
+      "total-tokens": "Total tokens",
+      "no-vesting-schedules": "No vesting schedules"
+    },
+    "not-found": "Not found 404",
+    "notification": {
+      "copied": "Copied!"
+    }
+  }
+  

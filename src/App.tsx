@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { withTranslation } from 'react-i18next';
+import { Router, Route, Switch } from 'react-router-dom';
+import { browserHistory } from './utils/history';
+import Layout from './pages/layout';
+import { routes, privateRoutes } from './Routes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App bg-app">
+      <Router history={browserHistory}>
+        <Switch>
+          <Route path={[...routes, ...privateRoutes].map((item) => item.path)} component={Layout} />
+        </Switch>
+      </Router>
     </div>
   );
 }
 
-export default App;
+export default withTranslation()(App);
+

@@ -1,0 +1,36 @@
+// size screen responsive
+// Small devices (landscape phones, 576px and up)
+// Extra large devices (large desktops, 1200px and up)
+// Large devices (desktops, 992px and up)
+// Medium devices (tablets, 768px and up)
+$breakpoint_mobile_max: 575px;
+$breakpoint_tablet_max: 767px;
+$breakpoint_desktop_max: 991px;
+$breakpoint_large_desktop_max: 1199px;
+$breakpoint_ultra_desktop_max: 1600px;
+
+//Color
+$color_primary: #c22f72;
+$color_white: #fff;
+$color_blue_ribbon: #1539ee;
+$color_athens_gray: #e6e8ec;
+$color_tangaroa: #030843;
+$color_porcelain: #f4f5f6;
+$color_heliotrope: #ea3ef7;
+$color_black_rock: #030734;
+$color_mercury: #e8e6e6;
+$color_anakiwa: #82fbfd;
+$color_woodsmoke: #141416;
+$color_waterloo: #7b7791;
+$color_cadet_blue: #b1b5c4;
+$color_alto: #e0e0e0;
+$color_bright_turquoise: #08f2f1;
+$color_blue_1: #0093e6;
+
+/* background */
+
+$background_primary: #282828;
+
+@mixin background-primary {
+  background: #282828;
+}

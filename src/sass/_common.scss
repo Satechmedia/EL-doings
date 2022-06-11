@@ -1,0 +1,60 @@
+html,
+body {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+
+  h4,
+  h5,
+  ul,
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.container {
+  max-width: 1727px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.highlight {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 147, 230, 0.5);
+}
+
+.button-connected {
+  color: $color_white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  height: 42px;
+  background: linear-gradient(45.02deg, #0046ee 14.62%, #00dbff 85.35%);
+  border: none;
+  border-radius: 5px;
+  padding: 1px;
+
+  span {
+    width: 100%;
+    padding: 7px 36px;
+    background-color: $background_primary;
+    border-radius: 5px;
+  }
+
+  &:hover,
+  &:focus {
+    color: $color_white;
+    background: linear-gradient(45.02deg, #0046ee 14.62%, #00dbff 85.35%);
+    border-color: $color_primary;
+    opacity: 0.8;
+  }
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.8);
+}
