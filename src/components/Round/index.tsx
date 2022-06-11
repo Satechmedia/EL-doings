@@ -77,7 +77,7 @@ const SummaryRoundComponent: FC<{
       <Col span={24}>
         <h4 className='title'>Vesting Portal</h4>
         <h5 className='subtitle'>
-          Your BYN <span className='highlight'>Summary</span>
+          Your CKT <span className='highlight'>Summary</span>
         </h5>
       </Col>
       <Col xs={24} md={12}>

@@ -6,16 +6,24 @@ import IconYoutube from 'resources/images/YoutubeLogo.svg';
 import IconLinkedin from 'resources/images/LinkedIn.svg';
 
 const socialLinks = [
-  {
-    name: 'Telegram',
-    icon: IconTelegram,
-    link: 'https://t.me/beyondfinanceglobal'
-  },
+
   {
     name: 'Medium',
     icon: IconMedium,
-    link: 'https://bfinance.medium.com/'
+    link: 'https://caketools.io'
   },
+
+  {
+    name: 'Twitter',
+    icon: IconTwitter,
+    link: 'https://Twitter.com/caKe_Tools'
+  },
+  {
+    name: 'Telegram',
+    icon: IconTelegram,
+    link: 'https://t.me/caketoolsio'
+  }
+
   // {
   //   name: 'Discord',
   //   icon: IconDiscord,
@@ -31,11 +39,7 @@ const socialLinks = [
   //   icon: IconLinkedin,
   //   link: 'https://discord.com/invite/vWrsyaw7hB'
   // },
-  {
-    name: 'Twitter',
-    icon: IconTwitter,
-    link: 'https://twitter.com/Bey0nd_Fi'
-  }
+
 ];
 
 export { socialLinks };

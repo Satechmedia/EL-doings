@@ -55,7 +55,7 @@ const StatisticComponent: FC<{
             ) : (
               <Skeleton.Input style={{ width: 60 }} active size='small' />
             )}
-            <div className='highlight'>BYN</div>
+            <div className='highlight'>CKT</div>
           </div>
         )}
       </div>
