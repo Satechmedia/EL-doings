@@ -2,7 +2,7 @@ import { randomRPCTesnet } from '../utils/helpers';
 
 export const POLLING_INTERVAL = 10000;
 
-export const TOKEN_ADDRESS = '0x6acffF70698c970C5EA3e0aB26249695B4b9787F';
+export const TOKEN_ADDRESS = '0xC8037B53423daCCae4b95E1ba132A66aCa82EAa3';
 
 export const DECIMAL_SCALE = 2;
 
@@ -37,7 +37,7 @@ export const LIST_NETWORK_RPC_MAINNET: any = {
 export const NETWORK_CHAIN_ID = {
   // ETHEREUM: 1,
   RINKEBY: 4,
-  BSC: 97,
+  BSC: 56,
 };
 
 export const METAMASK_DEEPLINK = 'https://metamask.io/download';

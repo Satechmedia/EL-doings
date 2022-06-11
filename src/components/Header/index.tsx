@@ -283,7 +283,7 @@ import React, {
             Wrong <span>Network</span>
           </h2>
           <div className='description'>Please change network on your wallet</div>
-          <Button className='switch-btn'>Switch to BSC TESTNET</Button>
+          <Button className='switch-btn'>Switch to BSC MAINNET</Button>
         </Modal>
   
         <Modal
