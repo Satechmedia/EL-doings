@@ -10,7 +10,7 @@ const socialLinks = [
   {
     name: 'Medium',
     icon: IconMedium,
-    link: 'https://caketools.io'
+    link: 'https://medium.com/@caketools'
   },
 
   {
