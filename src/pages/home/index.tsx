@@ -4,7 +4,7 @@ import { Button, Col, Layout, Row, Space, Switch, Image } from 'antd';
 import { useWeb3React } from '@web3-react/core';
 import { RoundComponent, SummaryRoundComponent } from '../../components/Round';
 import listRound from './listRound';
-import TextLogo from '../../resources/images/text_logo.svg';
+import TextLogo from '../../resources/images/text_logo.png';
 import Banner from "../../resources/images/banner.png";
 import { socialLinks } from '../layout/socials';
 

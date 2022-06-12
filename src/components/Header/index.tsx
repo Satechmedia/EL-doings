@@ -11,7 +11,7 @@ import React, {
   import { LoadingOutlined } from '@ant-design/icons';
   import { NavLink, useLocation } from 'react-router-dom';
   
-  import Logo from "../../resources/images/logo.svg";
+  import Logo from "../../resources/images/logo.png";
   import { useConnectWallet, useWindowResize } from '../../hook';
   import { formatNetworkAddress, storeAddress } from '../../utils/helpers';
   import IconMenu from '../../resources/svg/IconMenu';
@@ -20,7 +20,7 @@ import React, {
   import { walletConnect } from '../../connectors';
   import IconWalletConnect from '../../resources/svg/wallet_connect.svg';
   import IconMetamask from '../../resources/svg/metamask.svg';
-  import IconRight from '../../resources/svg/icon_right.svg';
+  import IconRight from '../../resources/svg/icon_right.png';
   import loading from '../../resources/svg/loading.svg';
   
   const { Header } = Layout;
