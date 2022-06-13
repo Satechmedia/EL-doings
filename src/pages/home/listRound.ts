@@ -11,7 +11,7 @@ const list = [
   },
   {
     key: 2,
-    address: '0x28fBd13FB1EBC1C832f7aBAe5CC7deDc0D2156dD',
+    address: '0x0C84441f7d95FbF3E52C4270Ae91937cE2e5c709',
     title: '<span>Seed</span> Round',
     abi: TokenLocker2,
     isCountdown: true
