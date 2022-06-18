@@ -58,8 +58,7 @@ const HomePage: FC<any> = ({ connectButtonRef }) => {
                 <Image preview={false} src={TextLogo} alt='beyondFi' />
                 <h5 className='description'>Vesting Portal</h5>
                 <p>
-                  A gateway to limitless access, limitless markets, limitless
-                  network
+                A defi gateway hub to limitless network, accessible markets.
                 </p>
                 <Button type='primary' onClick={toggleConnectWalletModal}>
                   Connect to <span className='wallet'>wallet</span>
