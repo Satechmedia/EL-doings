@@ -2,7 +2,7 @@ import { randomRPCTesnet } from '../utils/helpers';
 
 export const POLLING_INTERVAL = 10000;
 
-export const TOKEN_ADDRESS = '0xC8037B53423daCCae4b95E1ba132A66aCa82EAa3';
+export const TOKEN_ADDRESS = '0x3837e18B901629fcB200e0aD9c2f2441804bd6c8';
 
 export const DECIMAL_SCALE = 2;
 
