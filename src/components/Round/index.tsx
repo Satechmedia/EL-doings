@@ -221,7 +221,7 @@ const RoundComponent: FC<{
     if (balance < (roundData?.claimableAmount || 0)) {
       showMessage(
         TYPE_OF_ANT_DESIGN.ERROR,
-        'The claiming contract runs out of SHOE, please contact the Shoefy administrators.'
+        'The claiming contract runs out of CKT, please contact the CKT administrators.'
       );
 
       setIsShowBtnClaim(false);
